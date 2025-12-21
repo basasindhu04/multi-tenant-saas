@@ -89,7 +89,8 @@ docker-compose up -d
 3. Use token in headers:
 
 ```
-Authorization: Bearer <token>
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5ODQzMzEzZS00ZjU0LTRiZWEtYjA1Zi1iZTViNmRkNjhjMTQiLCJ0ZW5hbnRJZCI6IjUyYjlhMDQ5LTgyZjctNGE1OS05YjkwLWRkYWM2NjA0YWJhMCIsInJvbGUiOiJ0ZW5hbnRfYWRtaW4iLCJpYXQiOjE3NjYyOTk2NDgsImV4cCI6MTc2NjM4NjA0OH0.AtRK0Y5xCS68eKiEB0GCCFR57-Z5j6NSmcwFAaPr2VM
+
 ```
 
 ---
