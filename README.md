@@ -4,7 +4,7 @@ A production-ready multi-tenant SaaS application where multiple organizations ca
 
 ---
 
-## 🚀 Features
+##  Features
 
 * Multi-tenant architecture with strict data isolation
 * JWT-based authentication
@@ -49,7 +49,7 @@ project-root/
 
 ---
 
-## 🐳 Running the Application (MANDATORY)
+##  Running the Application (MANDATORY)
 
 ### Prerequisites
 
@@ -72,7 +72,7 @@ docker-compose up -d
 
 ---
 
-## 🔎 Service URLs
+##  Service URLs
 
 | Service      | URL                                                                  |
 | ------------ | -------------------------------------------------------------------- |
@@ -82,7 +82,7 @@ docker-compose up -d
 
 ---
 
-## 🔐 Authentication Flow
+##  Authentication Flow
 
 1. Register tenant
 2. Login to receive JWT
@@ -95,7 +95,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5ODQzM
 
 ---
 
-## 📊 Subscription Plans
+##  Subscription Plans
 
 | Plan       | Max Users | Max Projects |
 | ---------- | --------- | ------------ |
@@ -105,7 +105,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5ODQzM
 
 ---
 
-## 📄 Documentation
+##  Documentation
 
 Detailed documentation is available in the `docs/` folder:
 
@@ -116,7 +116,7 @@ Detailed documentation is available in the `docs/` folder:
 
 ---
 
-## 📝 Notes for Evaluators
+##  Notes for Evaluators
 
 * Entire system starts with **one command**
 * Database schema & seed data load automatically
@@ -124,6 +124,6 @@ Detailed documentation is available in the `docs/` folder:
 
 ---
 
-## 📎 Repository Link
+##  Repository Link
 
 [https://github.com/basasindhu04/multi-tenant-saas](https://github.com/basasindhu04/multi-tenant-saas)
