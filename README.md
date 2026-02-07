@@ -1,12 +1,3 @@
-# Multi-Tenant SaaS Platform – Project & Task Management
-
-A production-ready multi-tenant SaaS application where multiple organizations can register, manage teams, create projects, and track tasks with full data isolation, role-based access control, and subscription limits.
-
----
-
-## 🚀 Features
-
-* Multi-tenant architecture with strict data isolation
 * JWT-based authentication
 * Role-Based Access Control (Super Admin, Tenant Admin, User)
 * User management (CRUD)
