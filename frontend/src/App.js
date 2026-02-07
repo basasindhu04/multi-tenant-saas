@@ -1,9 +1,29 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { AuthProvider } from './context/AuthContext';
+import ProtectedRoute from './components/ProtectedRoute';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import Dashboard from './pages/Dashboard';
+import ProjectList from './pages/ProjectList';
+
 function App() {
   return (
-    <div style={{ padding: "40px", fontFamily: "Arial" }}>
-      <h1>Multi-Tenant SaaS Platform</h1>
-      <p>Frontend is running successfully.</p>
-    </div>
+    <AuthProvider>
+      <Router>
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+
+          <Route element={<ProtectedRoute />}>
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/projects" element={<ProjectList />} />
+          </Route>
+
+          <Route path="*" element={<Navigate to="/login" replace />} />
+        </Routes>
+      </Router>
+    </AuthProvider>
   );
 }
 
