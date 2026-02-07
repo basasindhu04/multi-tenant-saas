@@ -1,7 +1,7 @@
  * JWT-based authentication
 * Role-Based Access Control (Super Admin, Tenant Admin, User)
 * User management (CRUD)
-* Project & Task management
+* Project & Task management 
 * Subscription plan enforcement
 * Audit logging
 * Fully Dockerized (Database, Backend, Frontend)
