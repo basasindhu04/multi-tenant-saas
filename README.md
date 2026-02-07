@@ -7,7 +7,7 @@
 * Fully Dockerized (Database, Backend, Frontend)
 * One-command startup using Docker Compose
 
---- 
+---  
  
 ## 🛠 Tech Stack
 
