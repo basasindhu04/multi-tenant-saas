@@ -1,4 +1,4 @@
-* JWT-based authentication
+ * JWT-based authentication
 * Role-Based Access Control (Super Admin, Tenant Admin, User)
 * User management (CRUD)
 * Project & Task management
@@ -13,7 +13,7 @@
 
 * **Backend:** Node.js, Express
 * **Frontend:** React
-* **Database:** PostgreSQL
+* **Database:** PostgreSQL 
 * **Authentication:** JWT
 * **Authorization:** RBAC
 * **Containerization:** Docker, Docker Compose
